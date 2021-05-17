@@ -2,5 +2,5 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('envios','EnvioController@envioPedido')->name('envios.envioPedido'); 
+Route::get('/envio','EnvioController@epedido')->name('envios.epedido'); 
 

@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class EnvioController extends Controller
 {
-    public function envioPedido(){
+    public function epedido(){
         return "lista de pedidos enviados";
     }
 }
